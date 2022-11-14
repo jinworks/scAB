@@ -1,17 +1,16 @@
 
-# scAB: Multiresolution dissection of phenotype-associated cell states
-
+# scAB detects multiresolution cell states with clinical significance by integrating single-cell genomics and bulk sequencing data
 
 ## Installation
 
 scAB R package can be easily installed from Github using devtools:  
 
 ```
-devtools::install_github("Qinran-Zhang/scAB")
+devtools::install_github("jinworks/scAB")
 ```
 
 
-### Installation of other dependencies
+### Installation of other dependencies if not automatically installed
 - Install [Seurat](https://github.com/satijalab/seurat) using `install.packages('Seurat')`. 
 - Install [diptest](https://cran.r-project.org/web/packages/diptest/index.html) using `install.packages('diptest')`.
 - Install [multimode](https://cran.r-project.org/web/packages/multimode/index.html) using `install.packages('multimode')`.
